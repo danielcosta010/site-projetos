@@ -1,0 +1,28 @@
+.line {
+  border-right: 2px solid black;
+  padding-right: .5rem;
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.animacao {
+  animation: cursor steps(40) .8s infinite normal, escrever steps(40) 4s 1s normal;
+}
+
+@keyframes cursor {
+  from{
+    border-right-color: black;
+  }
+  to{
+    border-right-color: transparent;
+  }
+}
+@keyframes escrever {
+  from{
+    width: 0;
+  }
+  to{
+    width: 22rem;
+  }
+}
