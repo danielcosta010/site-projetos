@@ -3,7 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
-.menu {
+.menu__lista{
+  transition: 5s ease-in-out;
+}
+.menu__hamburguer {
   cursor: pointer;
   height: 60px;
   width: 60px;
@@ -11,6 +14,7 @@
 .hamburguer {
   display: block;
   background: black;
+  border-radius: 1rem;
   width: 30px;
   height: 3px;
   position: relative;
@@ -21,6 +25,7 @@
 .hamburguer::before, 
 .hamburguer::after {
   background: black;
+  border-radius: 1rem;
   content: '';
   display: block;
   width: 100%;
@@ -49,6 +54,10 @@ input:checked ~ label .hamburguer::after {
   transform: rotate(90deg);
   bottom: 0;
 }
+input:checked ~ label .menu__lista {
+  right: 0px;
+  display: block;
+}
 
 
 .menu__lista  {
@@ -58,6 +67,8 @@ input:checked ~ label .hamburguer::after {
   padding: 50px;
   transition: 2s;
   right: 0;
+  display: none;
+  top: 5rem;
 }
 li {
   margin-bottom: 20px;
@@ -65,4 +76,22 @@ li {
 .menu__lista-link {
   text-decoration: none;
   color: white;
+}
+
+@media (min-width: 540px) {
+  .menu__hamburguer {
+    display:none
+  }
+  .menu__lista {
+    display: flex;
+    padding: 0;
+    background-color: transparent;
+    top: 2rem;
+  }
+  .menu__lista-link {
+    margin-right: 1rem;
+  }
+  input:checked ~ label .menu__lista {
+   display: flex;
+  }
 }

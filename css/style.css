@@ -1,10 +1,21 @@
 @import url(../css/menu-hamburguer.css);
 @import url(../css/cabecalho.css);
 @import url(../css/animacao-escrita.css);
+@import url(../css/go-top.css);
 
-body {
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+:root {
+  --fonte-Principal: 'Space Mono', monospace;
+  --cor-principal: #022601;
+  --cor-secundaria: #485936;
+}
+
+html, body {
   margin: 0;
   padding: 0;
-  background: linear-gradient(to right, brown, red, pink, white);
- 
+  background: linear-gradient(to right, #6C7D8C, #8599A6, #C5D7D9, #F2E3D5);
+  font-family: var(--fonte-Principal);
+  scroll-behavior: smooth;
 }
+

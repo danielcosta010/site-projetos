@@ -3,6 +3,13 @@
   align-items: center;
   display: flex;
   height: 5rem;
-  background-color: rgba(0, 0, 0, 0.197);
+  background-color: rgba(0, 0, 0, 0.455);
   border-bottom: 1px solid white;  
+  position: sticky;
+  top: 0px;
+}
+.fa-user-large {
+  font-size: 4rem;
+  color: white;
+  padding-left: 1rem;
 }

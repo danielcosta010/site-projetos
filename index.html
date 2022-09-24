@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" id="inicio">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <script src="https://kit.fontawesome.com/a13f95c19e.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/style.css">
   <title>Site portfólio | projetos</title>
 
@@ -12,26 +13,36 @@
 </head>
 <body>
   <header class="cabecalho">
-    😁😁😁
-  
-    <input type="checkbox" name="" id="check">
-    <label for="check">
-      <div class="menu">
-        <span class="hamburguer"></span>
-      </div>
-    </label>
+    <span><i class="fa-solid fa-user-large"></i></i></span>
+    <nav class="menu">
+      <input type="checkbox" name="" id="check">
+      <label for="check">
+        <div class="menu__hamburguer">
+          <span class="hamburguer"></span>
+        </div>
+        
+          <ul class="menu__lista">
+            <li><a class="menu__lista-link" href="#inicio">Início</a></li>
+            <li><a class="menu__lista-link" href="#">Sobre</a></li>
+            <li><a class="menu__lista-link" href="#">Projetos</a></li>
+            <li><a class="menu__lista-link" href="#">Contato</a></li>
+          </ul>
+
+      </label>
+    </nav>
   </header>
-  <nav>
-    <ul class="menu__lista">
-      <li><a class="menu__lista-link" href="#">Início</a></li>
-      <li><a class="menu__lista-link" href="#">Sobre</a></li>
-      <li><a class="menu__lista-link" href="#">Projetos</a></li>
-      <li><a class="menu__lista-link" href="#">Contato</a></li>
-    </ul>
-  </nav>
-  
-  <h2 class="line animacao">Daniel Costa | Desenvolvedor web</h2>
-  
+  <main>
+    <section>
+      <h1 class="line animacao">
+        Daniel Costa | Desenvolvedor Web
+      </h1>
+    </section>
+
+
+    <a href="#inicio" class="gotop"><i class="fa-solid fa-arrow-up"></i></a>
+  </main>
+    
+
   <script src="js/main.js"></script>
 </body>
 </html>

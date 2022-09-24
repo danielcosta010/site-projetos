@@ -3,7 +3,9 @@
   padding-right: .5rem;
   white-space: nowrap;
   overflow: hidden;
-  display: inline-block;
+  margin: 1rem 0 0 .5rem;
+  position: absolute;
+  font-size: 1rem;
 }
 
 .animacao {
@@ -23,6 +25,6 @@
     width: 0;
   }
   to{
-    width: 22rem;
+    width: 20rem;
   }
 }
