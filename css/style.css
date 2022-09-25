@@ -10,12 +10,16 @@
   --cor-principal: #022601;
   --cor-secundaria: #485936;
 }
-
-html, body {
+* {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+html, body {
   background: linear-gradient(to right, #6C7D8C, #8599A6, #C5D7D9, #F2E3D5);
   font-family: var(--fonte-Principal);
   scroll-behavior: smooth;
+  
 }
 

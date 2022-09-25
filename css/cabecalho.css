@@ -1,15 +1,16 @@
 .cabecalho {
-  justify-content: space-between;
   align-items: center;
-  display: flex;
-  height: 5rem;
-  background-color: rgba(0, 0, 0, 0.455);
+  background-color: rgba(0, 0, 0, 0.307);
   border-bottom: 1px solid white;  
+  display: flex;
+  justify-content: space-between;
+  height: 5rem;
+  padding: 1rem;
   position: sticky;
   top: 0px;
 }
 .fa-user-large {
   font-size: 4rem;
   color: white;
-  padding-left: 1rem;
 }
+

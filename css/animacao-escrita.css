@@ -4,8 +4,8 @@
   white-space: nowrap;
   overflow: hidden;
   margin: 1rem 0 0 .5rem;
-  position: absolute;
   font-size: 1rem;
+  display: inline-block;
 }
 
 .animacao {
