@@ -27,11 +27,11 @@ function clickForaDoMenu(elementoAlvo, callback) {
       callback()
     }
   }
-  if(!elementoAlvo.hasAttribute('data-target')) {
-    html.addEventListener('click', handleHTMLClick);
-    html.addEventListener('touchstart', handleHTMLClick);
-    elementoAlvo.setAttribute('data-target', '');
-  }
+    if(!elementoAlvo.hasAttribute('data-target')) {
+      html.addEventListener('click', handleHTMLClick);
+      html.addEventListener('touchstart', handleHTMLClick);
+      elementoAlvo.setAttribute('data-target', '');
+    }
 }
 
 function setAria() {
