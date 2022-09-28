@@ -12,6 +12,9 @@
   overflow-y: hidden;
   z-index: 1;
 }
+.menu__desktop {
+  display: none;
+}
 .menu a {
   display: block;
   padding: 1rem;
@@ -66,17 +69,22 @@
   top: -.4375rem;
 }
 @media screen and (min-width: 540px) {
-  .menu {
+  .menu__desktop {
     display: flex;
-    gap: .5rem;
+    gap: 1rem;
     list-style: none;
     top: 1rem;
     background: transparent;
     justify-content: flex-end;  
   }
   
-  .menu a {
+  .menu__desktop a {
     border-bottom: none;
+    color: white;
+    text-decoration: none;
+  }
+  .menu {
+    visibility: hidden;
   }
   .hamburguer {
     display: none;
