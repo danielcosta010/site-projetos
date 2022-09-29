@@ -3,8 +3,8 @@
   padding-right: .5rem;
   white-space: nowrap;
   overflow: hidden;
-  margin: 1rem 0 0 .5rem;
-  font-size: 1rem;
+  margin: 1rem 0 0 2rem;
+  font-size: 4vw;
   display: inline-block;
 }
 
@@ -25,6 +25,6 @@
     width: 0;
   }
   to{
-    width: 20rem;
+    width: 80vw;
   }
 }

@@ -5,12 +5,12 @@
   display: flex;
   justify-content: space-between;
   height: 5rem;
-  padding: 1rem;
+  padding: 2rem;
   position: sticky;
   top: 0px;
 }
-.fa-user-large {
-  font-size: 4rem;
-  color: white;
+.foto__perfil {
+  height: 4.5rem;
+  width: 4.5rem;
+  border-radius: 50%;
 }
-

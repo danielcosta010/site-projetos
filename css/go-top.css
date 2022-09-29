@@ -2,8 +2,10 @@
   border-radius: .4rem;
   color: #F2E3D5;
   position: sticky;
+ 
   background-color: #48593696;
-  left: 96vw;
+  float: right;
+  margin-right: .5rem;
   bottom: .5rem;
   text-decoration: none;
   padding: .3rem .5rem;

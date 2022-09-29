@@ -83,6 +83,9 @@
     color: white;
     text-decoration: none;
   }
+  .menu__desktop a:hover {
+    background-color: #48593636;
+  }
   .menu {
     visibility: hidden;
   }
