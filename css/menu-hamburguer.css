@@ -82,9 +82,12 @@
     border-bottom: none;
     color: white;
     text-decoration: none;
+    padding: .5rem;
+    transition: .5s ease-in-out;
   }
   .menu__desktop a:hover {
     background-color: #48593636;
+    
   }
   .menu {
     visibility: hidden;
