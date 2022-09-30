@@ -11,12 +11,18 @@
   gap: 20px;
   grid-template-columns: 1fr;
   justify-items: center;
+  align-items: center;
 }
 .icones {
-  width: 200px;
-  color: var(--cor-principal);
+  font-size: 8rem;
+  color: white;
   padding: 2rem;
-  animation: deslize 2s cubic-bezier(0.56, 0.31, 0.61, 1.27) ;
+  animation: deslize 4s cubic-bezier(0.56, 0.31, 0.61, 1.27) normal;
+  overflow: hidden;
+}
+.icones__img {
+  width: 200px;
+  padding: 2rem;
 }
 
 .icones:hover {
@@ -26,7 +32,7 @@
 @keyframes deslize{
 	0%{
 		
-		transform:translateY(1000px)
+		transform:translateY(300px)
 	}
 	50%{
 		
