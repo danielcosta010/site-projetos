@@ -17,7 +17,6 @@
   font-size: 8rem;
   color: white;
   padding: 2rem;
-  animation: deslize 4s cubic-bezier(0.56, 0.31, 0.61, 1.27) normal;
   overflow: hidden;
 }
 .icones__img {
@@ -29,25 +28,12 @@
   animation: flutua 6s ease-in-out infinite;
 }
 
-@keyframes deslize{
-	0%{
-		
-		transform:translateY(300px)
-	}
-	50%{
-		
-		transform:translateY(-10px)
-	}
-  100% {
-    transform: translateY(0);
-  }
-}
 @keyframes flutua {
   0%, 100% {
     transform: translateY(0);
   }
   50% {
-    transform: translateY(2rem);
+    transform: translateY(-2rem);
   }
 }
 
