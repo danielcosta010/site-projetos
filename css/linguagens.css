@@ -6,6 +6,9 @@
   align-items: center;
   overflow-y: hidden;
 }
+.linguagens__titulo {
+  font-size: 3vw;
+}
 .linguagens__utilizadas {
   display: grid;
   gap: 20px;
@@ -14,14 +17,40 @@
   align-items: center;
 }
 .icones {
-  font-size: 8rem;
-  color: white;
+  font-size: 12rem;
   padding: 2rem;
   overflow: hidden;
 }
 .icones__img {
-  width: 200px;
+  width: 250px;
   padding: 2rem;
+}
+.icone__html {
+  color:  #f16226;
+}
+.icone__js {
+  color: #f7df1e;
+}
+.icone__react {
+  color: #29c7e2;
+}
+.icone__bootstrap {
+  color:  #7e0ffc;
+}
+.icone__angular {
+  color: #dd0031;
+}
+.icone__git {
+  color:  #f05033;
+}
+.icone__github {
+  color: #191c20;
+}
+.icone__awesome {
+  color: white;
+}
+.icone__vue {
+  color: #378673;
 }
 
 .icones:hover {
