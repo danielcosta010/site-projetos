@@ -1,10 +1,8 @@
 .linguagens {
   margin: 2rem;
   justify-content: space-between;
-  
   text-align: center;
   align-items: center;
-  overflow-y: hidden;
 }
 .linguagens__titulo {
   font-size: 3vw;
